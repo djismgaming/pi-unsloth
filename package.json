@@ -1,0 +1,25 @@
+{
+  "name": "pi-unsloth",
+  "version": "0.1.0",
+  "description": "Pi extension for the local Unsloth Studio provider (OpenAI-compatible).",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "unsloth"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit --strict --module nodenext --moduleResolution nodenext --skipLibCheck extensions/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^5.6.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  }
+}
