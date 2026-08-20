@@ -17,7 +17,7 @@ Pi extension that registers your local **Unsloth Studio** instance
    ```bash
    export UNSLOTH_API_KEY=sk-unsloth-...
    export UNSLOTH_BASE_URL=http://192.168.0.11:8888/v1   # default
-   export UNSLOTH_CONTEXT=128000                          # fallback context window
+   export UNSLOTH_CONTEXT=65000                           # fallback context window
    ```
 
 2. Install the extension from this repo:
