@@ -6,10 +6,12 @@
   "keywords": [
     "pi-package",
     "pi-extension",
-    "unsloth"
+    "unsloth",
+    "local",
+    "llama.cpp"
   ],
+  "author": "djismgaming",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit --strict --module nodenext --moduleResolution nodenext --skipLibCheck extensions/index.ts"
   },

@@ -23,10 +23,10 @@
 import type { ExtensionAPI, ProviderModelConfig } from "@earendil-works/pi-coding-agent";
 
 const DEFAULT_BASE_URL = "http://192.168.0.11:8888/v1";
-const DEFAULT_CONTEXT_WINDOW = 128_000;
-const DEFAULT_MAX_TOKENS = 32_768;
+const DEFAULT_CONTEXT_WINDOW = 65_000;
+const DEFAULT_MAX_TOKENS = 8_000;
 
-// The Unsloth Studio GGUF models are Qwen/Gemma-family and expose thinking
+// The Unsloth Studio GGUF models expose thinking
 // control through the server's chat template. They do not reliably accept the
 // "developer" role or reasoning_effort, so use the safe subset.
 const SHARED_COMPAT = {
