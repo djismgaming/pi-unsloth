@@ -12,7 +12,7 @@
  *                     every endpoint, including /models.
  *   UNSLOTH_BASE_URL  Optional. Defaults to http://192.168.0.11:8888/v1
  *   UNSLOTH_CONTEXT   Optional. Context window fallback (tokens) for models
- *                     whose /models entry does not report one. Default 128000
+ *                     whose /models entry does not report one. Default 65000
  *
  * The model list is fetched fresh at startup, so newly loaded models are
  * picked up automatically when pi starts. If the fetch fails, the provider is
