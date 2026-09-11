@@ -13,7 +13,7 @@
   "author": "djismgaming",
   "license": "MIT",
   "scripts": {
-    "typecheck": "tsc --noEmit --strict --module nodenext --moduleResolution nodenext --skipLibCheck extensions/index.ts"
+    "typecheck": "tsc --noEmit --strict --module nodenext --moduleResolution nodenext --skipLibCheck index.ts"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
@@ -21,7 +21,7 @@
   },
   "pi": {
     "extensions": [
-      "./extensions/index.ts"
+      "./index.ts"
     ]
   },
   "dependencies": {

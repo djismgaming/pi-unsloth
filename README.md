@@ -25,7 +25,7 @@ Pi extension that registers your local **Unsloth Studio** instance
    ```bash
    pi install /path/to/pi-unsloth
    # or, for development:
-   pi -e /path/to/pi-unsloth/extensions/index.ts
+   pi -e /path/to/pi-unsloth/index.ts
    ```
 
 3. Restart pi (or run `/reload`). The provider appears as **Unsloth (local)**
